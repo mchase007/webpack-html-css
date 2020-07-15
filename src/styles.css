@@ -1,0 +1,535 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;500;700&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243, 87%, 12%);
+}
+
+h1, h2, nav {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+  margin-bottom: 6.3rem;
+}
+
+.logo {
+  max-width: 6.2rem;
+  width: 5.3rem;
+}
+
+.top-nav ul {
+  display: flex;
+}
+
+.top-nav li {
+  margin: 0 0 0 1.3rem;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  max-width: 25rem;
+  margin-bottom: 1rem;
+  line-height: 34px;
+  font-size: 1.5rem;
+}
+
+.hero-content p {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.hero-content form {
+  max-width: 340px;
+  margin-bottom: 3.3rem;
+}
+
+input[type = 'email'] {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.2rem;
+}
+
+input[type = 'button'] {
+  height: 2.5rem;
+  font-size: 0.94rem;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border: none;
+}
+
+.content h1 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  max-width: 25rem;
+}
+
+.content div:first-of-type {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+}
+
+.convert {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.convert p {
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1.6em;
+  line-height: 25px;
+  text-align: center;
+}
+
+.convert form {
+  max-width: 340px;
+  padding-bottom: 4rem;
+}
+
+.link {
+  border-bottom: 1.5px solid hsl(170, 45%, 43%);
+}
+
+.link a {
+  color: hsl(170, 45%, 43%);
+}
+
+.link img {
+  width: 1.25rem;
+}
+
+.testimonial {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 20rem;
+  padding: 2rem;
+  height: 15rem;
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+}
+
+.q {
+  width: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial p {
+  line-height: 18px;
+  font-size: 0.8rem;
+}
+
+.wrapper {
+  position: relative;
+  height: 5rem;
+  top: -20px;
+}
+
+.avatar {
+  width: 3.3rem;
+  border-radius: 100%;
+}
+
+.user-details-2{
+  display: flex;
+  flex-direction: column;
+  width: 12.5rem;
+  position: relative;
+  top: -18px;
+  margin-left: 1rem;
+}
+
+.user-details-2 span:first-of-type {
+  font-weight: 700;
+}
+
+.user-details-2 span:last-of-type {
+  font-size: 0.7rem;
+}
+
+.address {
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-logo img {
+  margin-top: 3.3rem;
+  margin-bottom: 3.3rem;
+}
+
+.footer-nav li {
+  margin-bottom: 1.6rem;
+}
+
+.footer-nav li:first-of-type {
+  margin-top: 3.3rem;
+}
+
+.icons {
+  width: 102px;
+}
+
+.la-facebook-f,
+.la-twitter,
+.la-instagram {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.attribution {
+  margin-top: 3.3rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  color: hsl(170, 45%, 43%);
+}
+
+
+@media only screen and (max-width: 899px) {
+
+  .hero-content h1 {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .illustration {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 3.1rem;
+  }
+
+  .illustration-2 {
+    margin-top: 100px;
+  }
+
+  .hero-content p {
+    margin-bottom: 2rem;
+  }
+
+  .content p {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+
+  input[type = 'email'] {
+    width: 100%;
+  }
+
+  input[type = 'button'] {
+    width: 100%;
+    font-weight: 700;
+  }
+
+  .content div:first-of-type {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  
+  .link {
+    width: 10.6rem;
+    margin: 0 auto;
+  }
+
+  .convert div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icons {
+    margin: 0 auto;
+  }
+
+} 
+
+@media only screen and (min-width: 700px) {
+  
+  footer .major-col {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+  }
+
+  .footer-logo img {
+    margin-bottom: 1.6rem;
+  }
+
+  .address {
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-nav {
+    margin-top: 5rem;
+    margin-left: 50px;
+  }
+
+  .footer-nav li {
+    margin-bottom: 18px;
+  }
+  
+  .icons {
+    margin-top: 132px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  
+  .main {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .major-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-section {
+    margin-bottom: 6.3rem;
+  }
+  
+  .illustration {
+    order: 1;
+    max-width: 400px;
+  }
+
+  .illustration-2 {
+    margin-top: 4.4rem;
+  }
+
+  .hero-content {
+    text-align: left;
+  }
+
+  .hero-content h1 {
+    max-width: 22.5rem;
+    text-align: left;
+  }
+
+  .hero-content p {
+    max-width: 25rem;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+
+  input[type = 'email'] {
+    width: 60%;
+  }
+
+  input[type = 'button'] {
+    width: 38%;
+    font-size: 0.75rem;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  .content p {
+    max-width: 350px;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .content div:first-of-type {
+    justify-content: flex-start;
+    margin-bottom: 3.2rem;
+  }
+
+  .link {
+    width: 10rem;
+  }
+  
+  .link a {
+    margin-left: 5px;
+  }
+
+  .testimonial {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 18.8rem;
+    padding: 1.5rem;
+    height: 13rem;
+    margin: 0 auto;
+    margin-left: 4px;
+    margin-bottom: 6.25rem;
+  }
+
+  .testimonial p {
+    line-height: 18px;
+    font-size: 0.75rem;
+  }
+
+  .avatar {
+    width: 2.8rem;
+    border-radius: 100%;
+    margin-top: 2.5rem;
+  }
+
+  .user-details-2{
+    top: 2.5rem;
+  }
+
+  .convert {
+    width: 100%;
+  }
+
+  .convert div {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .convert h1 {
+    margin-top: 3.3rem;
+  }
+
+  .convert p {
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  
+    text-align: left;
+  }
+
+  .convert input[type = 'email'] {
+    width: 100%;
+    margin-top: 3.3rem;
+  }
+
+  .convert input[type = 'button'] {
+    width: 50%;
+    font-size: 0.75rem;
+  }
+
+  footer .major-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-logo img {
+    margin-bottom: 1.6rem;
+  }
+
+  .address {
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-nav {
+    margin-top: 5rem;
+  }
+
+  .footer-nav li {
+    margin-bottom: 18px;
+  }
+  
+}
+
+@media only screen and (min-width: 1201px){
+  
+  .illustration{
+    max-width: 540px;
+  }
+
+  .hero-content h1 {
+    max-width: 28rem;
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    max-width: 458px;
+    font-size: 1rem;
+  }
+
+  .hero-content form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 2000px;
+  }
+
+  input[type = 'email'] {
+    width: 17.5rem;
+  }
+
+  input[type = 'button'] {
+    width: 10.7rem;
+    font-size: 0.85rem;
+  }
+
+  .content h1 {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .content p {
+    max-width: 28rem;
+    font-size: 1rem;
+  }
+
+  .testimonial p {
+    font-size: 0.75rem;
+  }
+
+  .convert div {
+    max-width: 1400px;
+  }
+
+  .convert input[type = 'button'] {
+    margin-left: -8px;
+  }
+}
