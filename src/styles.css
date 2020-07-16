@@ -28,7 +28,7 @@ img {
   overflow: hidden;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -233,6 +233,13 @@ footer a {
   color: hsl(170, 45%, 43%);
 }
 
+
+@media only screen and (max-width: 380px) {
+  
+  .top-nav a {
+    font-size: 0.9rem;
+  }
+}
 
 @media only screen and (max-width: 899px) {
 
