@@ -49,6 +49,10 @@ header{
   margin: 0 0 0 1.3rem;
 }
 
+.top-nav a {
+  color: hsl(243, 87%, 12%);
+}
+
 .hero-content {
   text-align: center;
 }
@@ -207,7 +211,7 @@ footer a {
 }
 
 .icons {
-  width: 102px;
+  width: 120px;
 }
 
 .la-facebook-f,
@@ -316,9 +320,6 @@ footer a {
     margin-bottom: 18px;
   }
   
-  .icons {
-    margin-top: 132px;
-  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -477,6 +478,10 @@ footer a {
   .footer-nav li {
     margin-bottom: 18px;
   }
+
+  .icons {
+    margin-top: 132px;
+  }
   
 }
 
@@ -531,5 +536,9 @@ footer a {
 
   .convert input[type = 'button'] {
     margin-left: -8px;
+  }
+
+  .icons {
+    margin-top: 132px;
   }
 }
