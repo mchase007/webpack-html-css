@@ -236,8 +236,17 @@ footer a {
 
 @media only screen and (max-width: 380px) {
   
+  .logo {
+    max-width: 6.2rem;
+    width: 4rem;
+  }
+
   .top-nav a {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .top-nav li {
+    margin: 0 0 0 0.8rem;
   }
 }
 
