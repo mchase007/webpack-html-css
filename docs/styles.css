@@ -62,7 +62,6 @@ header{
 
 .hero-content p {
   max-width: 25rem;
-  margin: 0 auto;
 }
 
 .hero-content form {
@@ -249,6 +248,7 @@ footer a {
   }
 
   .hero-content p {
+    margin: 0 auto;
     margin-bottom: 2rem;
   }
 
